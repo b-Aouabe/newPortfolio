@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
     <footer className="flex flex-col items-center p-2 bg-primary">
-      <p className="">BOUBKER AOUABE &#169;</p>
+      <p className="">BOUBKER AOUABE &#169; 2024</p>
       <p>"Make it work, make it right, make it fast"</p>
       <div className="flex gap-2 mb-4">
         <a

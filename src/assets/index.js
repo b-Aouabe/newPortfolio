@@ -24,6 +24,7 @@ import threejs from "./tech/threejs.svg";
 import alpinejs from "./tech/alpinejs.png";
 import jquerry from "./tech/jquerry.png";
 import mysql from "./tech/mysql.png";
+import netcore from "./tech/netcore.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -34,6 +35,7 @@ import todoApp from "./todoApp.png";
 import laforainImmobilier from "./laforainImmobilier.png";
 import eharfa from "./eharfa.jpeg";
 import oms from "./oms.png";
+import blog from "./blog.png";
 
 export {
   logo,
@@ -61,6 +63,7 @@ export {
   alpinejs,
   jquerry,
   mysql,
+  netcore,
   meta,
   shopify,
   ensas,
@@ -69,4 +72,5 @@ export {
   laforainImmobilier,
   eharfa,
   oms,
+  blog,
 };

@@ -1,7 +1,6 @@
 import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
-import me from "../assets/MEjpg.jpg";
 
 const Hero = () => {
   return (
@@ -18,6 +17,8 @@ const Hero = () => {
             Hi, I'm <span className="text-[#915eff]">Boubker</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
+            a <span className="text-[#915eff]">Full Stack Web Developer</span>.
+            <br />
             My job is to build
             <span className="text-[#FFC100]"> Fast</span>,
             <span className="text-[#FFC100]"> Reliable </span>

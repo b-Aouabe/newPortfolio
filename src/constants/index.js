@@ -22,10 +22,12 @@ import {
   laforainImmobilier,
   eharfa,
   oms,
+  blog,
   threejs,
   alpinejs,
   jquerry,
   mysql,
+  netcore,
 } from "../assets";
 
 export const navLinks = [
@@ -131,10 +133,14 @@ const technologies = [
     name: "mySQL",
     icon: mysql,
   },
-  // {
-  //   name: "docker",
-  //   icon: docker,
-  // },
+  {
+    name: ".Net core",
+    icon: netcore,
+  },
+  {
+    name: "docker",
+    icon: docker,
+  },
 ];
 
 const experiences = [
@@ -288,6 +294,28 @@ const projects = [
     ],
     image: oms,
     source_code_link: "https://github.com/b-Aouabe/miniProjet_OrdreMissions",
+  },
+  {
+    name: "Blog Posts.",
+    description:
+      "Dynamic social app where users can explore a diverse range of novels, short stories shared by fellow members of the community. Engage with content by liking, commenting, and sharing your thoughts.",
+    tags: [
+      {
+        name: "Laravel",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Tailwindcss",
+        color: "green-text-gradient",
+      },
+      {
+        name: "MySQL",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: blog,
+    source_code_link:
+      "https://github.com/b-Aouabe/Laravel-From-Scratch-Blog-Project",
   },
 ];
 
